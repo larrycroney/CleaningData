@@ -3,7 +3,8 @@
 # dataFinal is the fully extracted, cleaned, and labeled data for steps 1-4 of the project
 # dataSummary is the summarized data for step 5
 
-setwd("coursera\\getting_and_cleaning_data\\project\\UCI\ HAR\ Dataset\\")
+# change working directory (if needed)
+# setwd("coursera\\getting_and_cleaning_data\\project\\UCI\ HAR\ Dataset\\")
 
 # load, extract, combine, name, and sort feature descriptions
 rawFeatures <- read.table("features.txt")
