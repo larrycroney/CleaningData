@@ -1,23 +1,26 @@
 
 README for Coursera Project
+
 Course: Getting and Cleaning Data
+
 Author: Larry Croney
+
 Date: Feb. 11, 2015
 
 The run_analysis.R program contains all of the R code for this project.  It consumes raw data from the UCI HAR Dataset and produces formatted and summarized output.
 
 R packages required:
-reshape2
+* reshape2
 
 Data files consumed:
-features.txt
-activity_labels.txt
-train/subject_train.txt
-train/X_train.txt
-train/y_train.txt
-test/subject_test.txt
-test/X_test.txt
-test/y_test.txt
+* features.txt
+* activity_labels.txt
+* train/subject_train.txt
+* train/X_train.txt
+* train/y_train.txt
+* test/subject_test.txt
+* test/X_test.txt
+* test/y_test.txt
 
 The program executes the following steps:
 * Read feature names from features.txt, then reduce the set to only include features containing "mean()" or "std()" in the name
